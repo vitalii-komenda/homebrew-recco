@@ -3,7 +3,7 @@ cask "recco" do
   name "recco"
   desc "A terminal app that recommends Steam games using Gemini AI"
   homepage "https://github.com/vitalii-komenda/Recco"
-  version "0.0.2"
+  version "0.0.6"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "recco" do
   on_macos do
     on_intel do
       url "https://github.com/vitalii-komenda/Recco/releases/download/v#{version}/recco_#{version}_darwin_amd64.tar.gz"
-      sha256 "c7cd8a9ad62d8e8399437eced060a3d005c7885089d42c2f3999c4f3e40ffaed"
+      sha256 "3b226420104aa8bd149d9019bd02de4de1976308af7759fc9d048501fb4104d4"
     end
     on_arm do
       url "https://github.com/vitalii-komenda/Recco/releases/download/v#{version}/recco_#{version}_darwin_arm64.tar.gz"
-      sha256 "7522e0938c642e811b1d06d3394d4381a79ff0f76582aea058a1b794ba1b2e13"
+      sha256 "9eb916baea46c2ceea7c16582f1869ec1ce57c51e3dddc51c13b8ae5308f840d"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/vitalii-komenda/Recco/releases/download/v#{version}/recco_#{version}_linux_amd64.tar.gz"
-      sha256 "657a0da1dc1112467552cd121a6ba2708d3f002a50158a5207a86de38b38007a"
+      sha256 "ed97abcd0dc8a4deecba98d924e03422ce16fae9a4fc4278578fee7599c1befa"
     end
     on_arm do
       url "https://github.com/vitalii-komenda/Recco/releases/download/v#{version}/recco_#{version}_linux_arm64.tar.gz"
-      sha256 "4faf003d332b118faefe92ae94a4ad8f9020f6cdb4e9286aa8925fe51113a0bd"
+      sha256 "d39373fe9b52aa5d304c134340e24becb45304ea08950ac4042b6a6aed11ff05"
     end
   end
 
